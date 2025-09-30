@@ -1,0 +1,6 @@
+@import './global.css';
+
+.container {
+  margin: 0 auto;
+  max-width: 73.6rem;
+}
