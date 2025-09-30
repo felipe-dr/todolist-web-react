@@ -28,9 +28,18 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%; /* 16px = 100% <=> 10px = 62.5% */
+}
+
 body {
   font-family: var(--font-main), sans-serif;
+  font-size: 1.6rem;
   color: var(--color-base-100);
   background-color: var(--color-base-600);
   -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
 }
