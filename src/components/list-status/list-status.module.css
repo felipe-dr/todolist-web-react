@@ -1,0 +1,34 @@
+.list-status {
+  padding-bottom: 2.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-status-border-bottom {
+  border-bottom: 1px solid var(--color-base-400);
+}
+
+.list-status-created-tasks,
+.list-status-done-tasks {
+  display: flex;
+  column-gap: 0.8rem;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.list-status-created-tasks {
+  color: var(--color-primary-100);
+}
+
+.list-status-done-tasks {
+  color: var(--color-secondary-100);
+}
+
+.list-status-count {
+  padding: 0.2rem 0.8rem;
+  font-size: 1.2rem;
+  color: var(--color-base-200);
+  background-color: var(--color-base-400);
+  border-radius: 8px;
+}
