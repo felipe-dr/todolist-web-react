@@ -1,0 +1,18 @@
+.logo {
+  width: max-content;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  text-transform: lowercase;
+}
+
+.logo-title {
+  font-size: 4rem;
+  font-weight: 900;
+  color: var(--color-primary-100);
+}
+
+.logo-title > span {
+  color: var(--color-secondary-400);
+}

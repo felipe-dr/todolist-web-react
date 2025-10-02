@@ -1,0 +1,35 @@
+.checkbox-container input[type='checkbox'] {
+  display: none;
+}
+
+.checkbox {
+  padding: 0.3rem;
+  width: 1.8rem;
+  height: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  cursor: pointer;
+
+  transition: all 0.1s;
+}
+
+.checkbox-unchecked {
+  border: 2px solid var(--color-primary-100);
+}
+
+.checkbox-unchecked:hover {
+  background-color: rgba(30, 111, 159, 0.2);
+  border-color: var(--color-primary-400);
+}
+
+.checkbox-checked {
+  border-color: var(--color-secondary-400);
+  background-color: var(--color-secondary-400);
+}
+
+.checkbox-checked:hover {
+  border-color: var(--color-secondary-100);
+  background-color: var(--color-secondary-100);
+}
