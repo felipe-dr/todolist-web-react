@@ -33,13 +33,24 @@ html {
 }
 
 body {
-  font-family: var(--font-main), sans-serif;
-  font-size: 1.6rem;
   color: var(--color-base-100);
   background-color: var(--color-base-600);
   -webkit-font-smoothing: antialiased;
 }
 
+body,
+input,
+textarea,
+button {
+  font-family: var(--font-main), sans-serif;
+  font-size: 1.6rem;
+}
+
 a {
   text-decoration: none;
+}
+
+:focus {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--color-secondary-400);
 }

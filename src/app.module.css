@@ -1,0 +1,16 @@
+.todo-new-task-bar {
+  margin-bottom: 6.4rem;
+  display: flex;
+  gap: 0.8rem;
+  margin-top: -2.6rem;
+}
+
+.todo-empty-list {
+  margin-top: 6.4rem;
+}
+
+.todo-tasks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
