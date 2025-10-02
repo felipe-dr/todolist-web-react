@@ -48,10 +48,10 @@ Aplicação desenvolvida no desafio 01 em React.js com o Vite e Typescript, afim
 
 ## Requisitos e funcionalidades
 
-- [ ] Deve ser possível adicionar uma tarefa;
-- [ ] Deve ser possível marcar e desmarcar uma tarefa como concluída;
-- [ ] Deve ser possível remover uma tarefa da listagem;
-- [ ] Deve ser possível mostrar o progresso de conclusão das tarefas;
+- [x] Deve ser possível adicionar uma tarefa;
+- [x] Deve ser possível marcar e desmarcar uma tarefa como concluída;
+- [x] Deve ser possível remover uma tarefa da listagem;
+- [x] Deve ser possível mostrar o progresso de conclusão das tarefas;
 
 ## Como executar
 
